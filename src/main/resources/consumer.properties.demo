@@ -1,0 +1,14 @@
+bootstrap.servers=192.168.230.100:9092
+group.id=joe
+session.timeout.ms=60000
+enable.auto.commit=true
+auto.commit.interval.ms=10000
+partition.assignment.strategy=org.apache.kafka.clients.consumer.RoundRobinAssignor
+key.deserializer=org.apache.kafka.common.serialization.StringDeserializer
+value.deserializer=org.apache.kafka.common.serialization.ByteArrayDeserializer
+#根据需要添加sasl安全认证配置
+topic=duplication
+thread.count=1
+topic.prefix=
+commit.interval=1000
+connect.session.timeout.ms=1000

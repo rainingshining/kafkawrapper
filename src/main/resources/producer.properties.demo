@@ -1,0 +1,7 @@
+bootstrap.servers=192.168.230.100:9092
+client.id=joe2
+key.serializer=org.apache.kafka.common.serialization.StringSerializer
+value.serializer=org.apache.kafka.common.serialization.ByteArraySerializer
+#根据需要添加sasl安全认证配置
+topic.prefix=
+topic=duplication

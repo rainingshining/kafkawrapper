@@ -1,0 +1,12 @@
+#-------START--------
+security.mode.on=false
+security.mode=sasl_plaintext
+security.krb5.conf.file=
+security.user.keytab.file=
+security.user.principal=
+security.zookeeper.server.principal=
+security.auth.login.config=
+security.jaas.tmp.folder=
+unsecure.mode.allow=false
+backup.bootstrap.servers=
+#---------END---------
